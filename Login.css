@@ -1,0 +1,45 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 559px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 250px;
+  width: 570px;
+  margin: 27px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  --radius: 32px;
+}
+
+.u-section-1 .u-btn-2 {
+  --radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 181px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-btn-2 {
+    margin-top: 99px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 128px;
+  }
+}
