@@ -35,7 +35,11 @@
 }
 
 .u-section-1 .u-text-9 {
-  margin: 19px 0 60px;
+  margin: 19px 0 0;
+}
+
+.u-section-1 .u-text-10 {
+  margin: 50px auto 51px;
 }
 
 @media (max-width: 1199px) {
