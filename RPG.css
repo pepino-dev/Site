@@ -79,7 +79,7 @@
 
 .u-section-1 .u-text-5 {
   font-weight: 400;
-  margin: 36px auto;
+  margin: 37px auto 35px;
 }
 
 @media (max-width: 991px) {
@@ -315,7 +315,7 @@
   --radius: 10px;
   height: 347px;
   background-image: linear-gradient(to right, #478ac9, #9447c9);
-  margin: 29px auto 0;
+  margin: 30px auto 0;
 }
 
 .u-section-2 .u-image-3 {
