@@ -1,8 +1,9 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 803px;
+  min-height: 914px;
 }
 
 .u-section-1 .u-text-1 {
+  text-shadow: 0px 2px 8px rgba(0,0,0,1);
   margin: 13px auto 0;
 }
 
@@ -11,15 +12,15 @@
   --radius: 10px;
   height: 297px;
   background-image: linear-gradient(to right, #478ac9, #9447c9);
-  margin: 21px auto 0 20px;
+  margin: 21px 13px 0 auto;
 }
 
 .u-section-1 .u-image-1 {
-  width: 477px;
-  height: 255px;
+  width: 480px;
+  height: 300px;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: -276px auto 0 50px;
+  margin: -317px 42px 0 auto;
 }
 
 .u-section-1 .u-shape-2 {
@@ -27,90 +28,163 @@
   --radius: 10px;
   height: 297px;
   background-image: linear-gradient(to right, #478ac9, #9447c9);
-  margin: -276px 13px 0 auto;
+  margin: -280px auto 0 20px;
 }
 
 .u-section-1 .u-image-2 {
-  width: 480px;
-  height: 300px;
+  width: 514px;
+  height: 276px;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: -317px 42px 60px auto;
+  margin: -286px auto 0 32px;
+}
+
+.u-section-1 .u-shape-3 {
+  width: 537px;
+  --radius: 10px;
+  height: 297px;
+  background-image: linear-gradient(to right, #478ac9, #9447c9);
+  margin: 44px auto 0;
+}
+
+.u-section-1 .u-image-3 {
+  width: 477px;
+  height: 255px;
+  transition-duration: 0.5s;
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
+  margin: -276px auto 60px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-shape-1 {
+    margin-top: 754px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -73px;
+  }
+
   .u-section-1 .u-shape-2 {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -73px;
+    margin-top: -1497px;
+  }
+
+  .u-section-1 .u-shape-3 {
+    margin-top: 339px;
+  }
+
+  .u-section-1 .u-image-3 {
+    margin-top: -585px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 980px;
-  }
-
   .u-section-1 .u-shape-1 {
-    margin-left: auto;
+    margin-top: 809px;
+    margin-right: auto;
   }
 
   .u-section-1 .u-image-1 {
-    margin-left: auto;
-  }
-
-  .u-section-1 .u-shape-2 {
-    margin-top: 75px;
+    margin-top: -300px;
     margin-right: auto;
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -300px;
-    margin-right: auto;
+    margin-top: -1325px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-shape-1 {
+    margin-top: 754px;
+  }
+
   .u-section-1 .u-shape-2 {
-    margin-top: 20px;
+    margin-left: 3px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -1270px;
+    margin-left: 26px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 820px;
+    min-height: 1306px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
   .u-section-1 .u-shape-1 {
-    height: 221px;
+    height: 206px;
+    margin-top: 295px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-1 .u-image-1 {
-    width: 310px;
-    height: 177px;
-    margin-top: -199px;
-  }
-
-  .u-section-1 .u-shape-2 {
-    height: 206px;
-    margin-top: 65px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
-  }
-
-  .u-section-1 .u-image-2 {
     height: 213px;
     margin-top: -213px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
+
+  .u-section-1 .u-shape-2 {
+    height: 221px;
+    margin-top: -473px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-image-2 {
+    height: 183px;
+    margin-top: -202px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-shape-3 {
+    height: 221px;
+    margin-top: 310px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-image-3 {
+    width: 310px;
+    height: 177px;
+    margin-top: -199px;
+  }
+}
+
+.u-section-1 .u-image-3,
+.u-section-1 .u-image-3:before,
+.u-section-1 .u-image-3 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-image-3.u-image-3.u-image-3:hover {
+  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+  border-radius: 20px !important;
+}
+
+.u-section-1 .u-image-3.u-image-3.u-image-3.hover {
+  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+  border-radius: 20px !important;
 }
 
 .u-section-1 .u-image-1,
@@ -121,12 +195,10 @@
 
 .u-section-1 .u-image-1.u-image-1.u-image-1:hover {
   transform: scale(1.1) translateX(0px) translateY(0px) !important;
-  border-radius: 20px !important;
 }
 
 .u-section-1 .u-image-1.u-image-1.u-image-1.hover {
   transform: scale(1.1) translateX(0px) translateY(0px) !important;
-  border-radius: 20px !important;
 }
 
 .u-section-1 .u-image-2,
